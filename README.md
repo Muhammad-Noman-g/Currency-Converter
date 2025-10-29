@@ -44,3 +44,5 @@
 ## 📸 Screenshot
 
 ![](assets/screenshot.png)
+
+Favicon icon by [Prosymbols Premium](https://www.flaticon.com/free-icon/currency-exchange_7037893) from [Flaticon](https://www.flaticon.com/)
