@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency Converter</h1>
+      <form>
+        <div class="input">
+          <p>Enter Amount</p>
+          <input type="text" value="1" />
+        </div>
+        <div class="dropdowns">
+          <div class="from">
+            <p class="direction-txt">From</p>
+            <input
+              type="text"
+              class="from-search curr-search"
+              placeholder="search"
+            />
+            <div class="select-cont">
+              <img src="https://flagsapi.com/US/flat/64.png" alt="" />
+              <select name="from"></select>
+            </div>
+          </div>
+          <div class="swap">
+            <p>Swap</p>
+            <i class="fa-solid fa-right-left"></i>
+          </div>
+          <div class="to">
+            <p class="direction-txt">To</p>
+            <input
+              type="text"
+              class="to-search curr-search"
+              placeholder="search"
+            />
+            <div class="select-cont">
+              <img src="https://flagsapi.com/PK/flat/64.png" alt="" />
+              <select name="to"></select>
+            </div>
+          </div>
+        </div>
+        <div class="result">
+          <p class="msg"></p>
+          <div class="spinner"></div>
+        </div>
+        <button>Get Exchange Rate</button>
+      </form>
+    </div>
+    <script src="codes.js" defer></script>
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
