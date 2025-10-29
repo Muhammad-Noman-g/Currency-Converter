@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-🌐 **Try it here:** [https://your-netlify-link.netlify.app](https://your-netlify-link.netlify.app)
+🌐 **Try it here:** [https://noman-currency-converter.netlify.app](https://noman-currency-converter.netlify.app)
 
 ## 🧩 Features
 
