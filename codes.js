@@ -70,7 +70,11 @@ const countryList = {
   EEK: { country: "Estonia", code: "EE", currency: "Estonian Kroon" },
   EGP: { country: "Egypt", code: "EG", currency: "Egyptian Pound" },
   ETB: { country: "Ethiopia", code: "ET", currency: "Ethiopian Birr" },
-  EUR: { country: "France", code: "FR", currency: "Euro" },
+  EUR: {
+    country: "Many countries, including France",
+    code: "FR",
+    currency: "Euro",
+  },
   FJD: { country: "Fiji", code: "FJ", currency: "Fijian Dollar" },
   FKP: {
     country: "Falkland Islands",
