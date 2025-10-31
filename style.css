@@ -68,6 +68,13 @@ i {
 .swap {
   margin-top: 10px;
 }
+.rapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  text-align: center;
+}
 @media (max-width: 600px) {
   i {
     font-size: 0.9rem;
@@ -77,6 +84,9 @@ i {
   }
   .swap p {
     visibility: hidden;
+  }
+  .rapper {
+    font-size: 10px;
   }
 }
 .result {
@@ -122,11 +132,4 @@ button:active {
   100% {
     transform: rotate(360deg);
   }
-}
-.rapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1rem;
-  text-align: center;
 }
