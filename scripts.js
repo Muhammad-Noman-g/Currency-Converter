@@ -11,6 +11,7 @@ const toSearch = document.querySelector(".to-search");
 
 for (let select of selects) {
   for (let code in countryList) {
+    //console.log(countryList.USD.country);
     let newOption = document.createElement("option");
     newOption.value = code;
     newOption.innerText = code;
@@ -58,7 +59,7 @@ function filterOptions(input, select) {
 
 function updateFlag(select) {
   let flagImg = select.parentElement.querySelector("img");
-  let contCode = countryList[select.value];
+  let contCode = countryList[select.value].code;
   newSrc = `https://flagsapi.com/${contCode}/flat/64.png`;
   flagImg.src = newSrc;
 }

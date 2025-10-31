@@ -123,3 +123,8 @@ button:active {
     transform: rotate(360deg);
   }
 }
+.rapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
